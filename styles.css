@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    background-color: black;
+    color: orange;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+#grid {
+    padding: 20px 50px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 991px)
+{
+    #grid {
+        width: 300px;
+        height: 200px;
+    }
+}
